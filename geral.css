@@ -1,6 +1,6 @@
 .calculadora {
     padding: 10px;
-    background:#cccccc;
+    background: rgb(209, 183, 240);
     width: 200px;
     border-radius: 5px;
     
@@ -13,7 +13,7 @@
 
 .spResul {
     background: rgb(164, 139, 194);
-    color: blue;
+    color: aliceblue;
     padding: 5px;
     margin: 5px;
     border-radius: 3px;
@@ -24,12 +24,30 @@
     padding: 5px;
     background: rgb(164, 139, 194);
     margin-top: 13px;
-    color: blue;
+    color: aliceblue;
     border-radius: 5px;
 }
 
 #btnCal:hover {
     background: rgb(97, 81, 117);
-    color: blue;
+    color: aliceblue;
     cursor: pointer;
+}
+
+.listaMensal {
+    padding: 10px;
+    background: rgb(209, 183, 240);
+    width: 200px;
+
+    
+}
+
+.calcF {
+    display: none;
+}
+#calcFin {
+    display: none;
+}
+#calcFin:checked + .calculadora .calcF {
+    display: block;
 }
